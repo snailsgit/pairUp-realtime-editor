@@ -1,0 +1,153 @@
+.homePageWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 165, 20);
+  }
+  
+  .formWrapper{
+    max-height: 90%;
+    margin-top: 50px;
+    background:#282a36;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+    max-width: 90%;
+  }
+  
+  
+  footer{
+    position: fixed;
+    bottom: 0;
+    color: red;
+  }
+  
+  footer a{
+    color: #19468d;
+  }
+  
+  .inputGroup{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mainLabel{
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .homePageLogo{
+    margin-left: 50px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+  
+  .inputBox{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    background: #eee;
+  }
+  
+  .btn{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+  }
+  
+  .joinBtn{
+    background:#4aee88;
+    width: 100px;
+    margin-left: auto;
+  }
+  
+  .joinBtn:hover .leaveBtn:hover{
+    background: #2b824c;
+  }
+  
+  .createInfo{
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .createNewBtn{
+    color:#4aee88;
+    text-decoration: none;
+    border-bottom: 1px solid #558ad0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .createNewBtn:hover{
+    background: #09037b;
+    border-color: #09037b;
+  }
+  
+  footer a:hover{
+    background: #4aee88;
+    border-color: #09037b;
+  }
+  
+  .mainWrap{
+    display: grid;
+    grid-template-columns: 230px 1fr;
+  }
+  
+  .aside{
+    background:#1c1e29;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .asideInner{
+    flex:1;
+  }
+  
+  .clientsList{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .client{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;  
+  }
+  
+  .userName{
+    margin-top: 10px;
+  }
+  
+  .logo{
+    border-bottom: 1px solid #424242;
+  }
+  
+  .logoImage{
+    height: 150px;
+  }
+  
+  .leaveBtn{
+    margin-top: 20px;
+    background:#4aee88;
+    width: 100%;
+  }
+  
+  .leaveBtn:hover{
+    background: #2b824c;
+  }
+  
+  .CodeMirror{
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+  }
